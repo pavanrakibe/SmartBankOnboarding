@@ -1,0 +1,9 @@
+package com.smartbank.exception;
+
+
+public class KycValidationException extends RuntimeException {
+
+    public KycValidationException(String message) {
+        super(message);
+    }
+}
